@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BengaliVerse — #StayInTheNow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800;900&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav class="navbar">
+    <a href="#" class="nav-logo">
+        <div class="logo-icon"></div>
+        <img src="images/BV_Logo.svg" alt="BengaliVerse logo">
+        <span>BengaliVerse</span>
+    </a>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#partnership">Partnership</a></li>
+        <li><a href="#about">About Us</a></li>
+    </ul>
+    <a href="#contact" class="btn-contact">Contact US</a>
+</nav>
+
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="home">
+    <div class="hero-bg">
+        <!--
+            ★ ADD YOUR IMAGE:
+            In style.css → .hero-bg → background: url('images/hero-bg.jpg') center/cover no-repeat;
+        -->
+    </div>
+    <!-- Particles layer -->
+    <div class="particles" id="heroParticles"></div>
+
+    <div class="hero-content">
+        <div class="hero-eyebrow">
+            <span class="dot"></span> Live Now from Bangladesh
+        </div>
+        <h1 class="hero-hashtag">#NewsJustIn</h1>
+        <p class="hero-sub">
+            From the streets of Dhaka to every corner of Bangladesh.<br>
+            Stories that define us, told in real time.
+        </p>
+        <div class="hero-btns">
+            <a href="#news" class="btn-liquid primary">
+                <i class="fas fa-book-open"></i> Read Stories
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="btn-liquid">
+                <i class="fab fa-facebook" style="color:#4a9eff;font-size:17px"></i> Follow us on Facebook
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-fab">
+        <div class="fab-btn active" title="Notifications"><i class="fas fa-bell"></i></div>
+        <div class="fab-btn" title="Messages"><i class="fas fa-comment-dots"></i></div>
+    </div>
+</section>
+
+
+<!-- ═══ STATS / POWERING ═══ -->
+<section class="stats-section" id="about">
+    <div class="stats-bg">
+        <!--
+            ★ ADD YOUR IMAGE:
+            In style.css → .stats-bg → background: url('images/stats-bg.jpg') center/cover no-repeat;
+        -->
+    </div>
+    <div class="stats-inner">
+        <div class="stats-tag"><i class="fas fa-bolt"></i>&nbsp; Reach &amp; Impact</div>
+        <h2 class="stats-heading">
+            #Powering Conversations<br>
+            <span>Across Bangladesh</span>
+        </h2>
+        <div class="stats-cards">
+            <div class="stat-card">
+                <div class="stat-icon fb"><i class="fab fa-facebook-f" style="color:#fff"></i></div>
+                <div class="stat-number">200k+</div>
+                <div class="stat-label">Facebook Followers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon yt"><i class="fab fa-youtube" style="color:#fff"></i></div>
+                <div class="stat-number">70M+</div>
+                <div class="stat-label">Monthly Reach</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon ad"><i class="fas fa-bullhorn" style="color:#fff"></i></div>
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Advertisers</div>
+            </div>
+        </div>
+        <div class="brands-row" id="partnership">
+            <span class="brands-label">Brands that trust us</span>
+            <span class="brands-sep">|</span>
+            <!--
+                ★ REPLACE with real logo <img> tags:
+                <img src="images/grameenphone.png" alt="Grameenphone" style="height:22px;opacity:.7;filter:brightness(0) invert(1)">
+            -->
+            <span class="brand-name">Grameenphone</span>
+            <span class="brand-name">Banglalink</span>
+            <span class="brand-name">Suzuki</span>
+            <span class="brands-sep">|</span>
+            <span class="brands-more">and many more...</span>
+        </div>
+    </div>
+</section>
+
+
+<!-- ═══ HIGHLIGHTS CAROUSEL ═══ -->
+<section class="highlights-section" id="news">
+    <h2 class="section-tag"><span class="hash">#</span>Highlights</h2>
+
+    <div class="carousel-wrapper">
+        <div class="carousel-track" id="carouselTrack">
+
+            <!-- Card 1 -->
+            <div class="highlight-card">
+                <div class="card-img-wrap">
+                    <img src="images/card1.png" alt="Story 1">
+                    <!--
+                        ★ REPLACE with: <img src="images/card1.jpg" alt="Story 1">
+                    -->
+                    <div class="card-img-placeholder">
+                        <i class="fas fa-image"></i>
+                        card1.jpg — 340 × 420 px
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="highlight-card">
+                <div class="card-img-wrap">
+                    <img src="images/card2.png" alt="Story 1">
+                    <div class="card-img-placeholder">
+                        <i class="fas fa-image"></i>
+                        card2.jpg — 340 × 420 px
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="highlight-card">
+                <div class="card-img-wrap">
+                    <img src="images/card3.png" alt="">
+                    <div class="card-img-placeholder">
+                        <i class="fas fa-image"></i>
+                        card3.jpg — 340 × 420 px
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="highlight-card">
+                <div class="card-img-wrap">
+                    <div class="card-img-placeholder">
+                        <i class="fas fa-image"></i>
+                        card4.jpg — 340 × 420 px
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="highlight-card">
+                <div class="card-img-wrap">
+                    <div class="card-img-placeholder">
+                        <img src="images/card1.png" alt="">
+                        <i class="fas fa-image"></i>
+                        card5.jpg — 340 × 420 px
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="highlight-card">
+                <div class="card-img-wrap">
+                    <div class="card-img-placeholder">
+                        <i class="fas fa-image"></i>
+                        card6.jpg — 340 × 420 px
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /carousel-track -->
+    </div><!-- /carousel-wrapper -->
+
+    <div class="carousel-nav">
+        <button class="carousel-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        <button class="carousel-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+</section>
+
+
+<!-- ═══ FOOTER ═══ -->
+<footer id="contact">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <a href="#" class="nav-logo">
+                <div class="logo-icon">&#10022;</div>
+                <span>BengaliVerse</span>
+            </a>
+            <p class="footer-tagline">A youth-led, AI-powered digital news platform in Bangladesh, redefining how the next generation engages with information.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#partnership">Partnership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="#">Latest News</a></li>
+                <li><a href="#">Editorial</a></li>
+                <li><a href="#">Youth</a></li>
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">Business</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Get in Touch</h4>
+            <div class="footer-contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:hello@bengaliverse.com">hello@bengaliverse.com</a>
+            </div>
+            <div class="footer-contact-item">
+                <i class="fab fa-whatsapp"></i>
+                <a href="#">WhatsApp Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 BengaliVerse. All Rights Reserved.</p>
+        <a href="#home">Back to Top &#8593;</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
